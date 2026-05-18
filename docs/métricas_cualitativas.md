@@ -277,3 +277,279 @@ También ayuda a identificar:
 - necesidades de capacitación,
 - resistencia al cambio,
 - y oportunidades de mejora.
+
+# 11. Percepción de Transparencia de Datos
+
+## Método de evaluación
+
+Encuestas relacionadas con:
+- claridad en el manejo de datos,
+- comprensión de procesos,
+- trazabilidad de información,
+- y acceso a documentación institucional.
+
+## Explicación de la evaluación
+
+Las personas usuarias evalúan qué tan transparentes consideran los procesos relacionados con almacenamiento, procesamiento y consulta de información dentro del Lago de Datos.
+
+## Explicación de la métrica
+
+Esta métrica permite medir si las unidades administrativas consideran claros y comprensibles los procesos de gestión de datos institucionales.
+
+La transparencia es importante porque fortalece:
+- confianza organizacional,
+- gobernanza de datos,
+- trazabilidad,
+- y control institucional.
+
+También ayuda a identificar:
+- falta de documentación,
+- procesos poco claros,
+- y problemas de comunicación entre áreas.
+
+---
+
+# 12. Nivel de Capacitación Percibida
+
+## Método de evaluación
+
+Encuestas relacionadas con:
+- preparación técnica,
+- comprensión de herramientas,
+- facilidad de aprendizaje,
+- y suficiencia de capacitación recibida.
+
+## Explicación de la evaluación
+
+Las personas usuarias califican si consideran adecuada la capacitación proporcionada para utilizar correctamente la plataforma.
+
+## Explicación de la métrica
+
+Esta métrica permite identificar si las unidades administrativas cuentan con los conocimientos necesarios para aprovechar el Lago de Datos Institucional.
+
+Una capacitación insuficiente puede provocar:
+- errores operativos,
+- baja adopción tecnológica,
+- dependencia técnica,
+- y resistencia al cambio.
+
+Una mayor capacitación favorece:
+- eficiencia,
+- productividad,
+- y mejor aprovechamiento de la infraestructura tecnológica.
+
+---
+
+# 13. Percepción de Escalabilidad
+
+## Método de evaluación
+
+Evaluación relacionada con:
+- crecimiento institucional,
+- expansión tecnológica,
+- y capacidad futura de la plataforma.
+
+## Explicación de la evaluación
+
+Las personas usuarias evalúan si consideran que la plataforma puede adaptarse al incremento de información y nuevas necesidades institucionales.
+
+## Explicación de la métrica
+
+El INEGI trabaja continuamente con grandes volúmenes de información estadística y geoespacial.
+
+Esta métrica permite medir si las áreas consideran que el Lago de Datos puede:
+- crecer de manera sostenible,
+- soportar más usuarios,
+- procesar mayor cantidad de datos,
+- y adaptarse a futuros proyectos institucionales.
+
+Una buena percepción de escalabilidad fortalece la visión estratégica de largo plazo.
+
+---
+
+# 14. Nivel de Dependencia Técnica
+
+## Método de evaluación
+
+Encuestas relacionadas con:
+- necesidad de soporte técnico,
+- complejidad operativa,
+- y autonomía de las personas usuarias.
+
+## Explicación de la evaluación
+
+Las unidades administrativas indican qué tanto dependen de personal especializado para utilizar la plataforma correctamente.
+
+## Explicación de la métrica
+
+Esta métrica permite identificar si el Lago de Datos puede ser utilizado fácilmente por distintas áreas sin requerir apoyo técnico constante.
+
+Una alta dependencia técnica puede generar:
+- retrasos,
+- baja productividad,
+- y dificultad de adopción institucional.
+
+Reducir la dependencia técnica favorece:
+- autonomía operativa,
+- accesibilidad,
+- y eficiencia organizacional.
+
+---
+
+# 15. Percepción de Accesibilidad
+
+## Método de evaluación
+
+Evaluaciones relacionadas con:
+- facilidad de acceso,
+- disponibilidad de herramientas,
+- compatibilidad,
+- y rapidez de navegación.
+
+## Explicación de la evaluación
+
+Las personas usuarias califican qué tan fácil resulta acceder a información y herramientas dentro de la plataforma.
+
+## Explicación de la métrica
+
+Esta métrica permite medir si las unidades administrativas pueden acceder de forma sencilla a los recursos institucionales.
+
+Una buena accesibilidad favorece:
+- productividad,
+- rapidez operativa,
+- colaboración,
+- y consulta eficiente de información.
+
+También ayuda a identificar:
+- barreras tecnológicas,
+- limitaciones de acceso,
+- y problemas de navegación.
+
+---
+
+# 16. Nivel de Innovación Organizacional
+
+## Método de evaluación
+
+Encuestas relacionadas con:
+- modernización institucional,
+- transformación digital,
+- y mejora de procesos internos.
+
+## Explicación de la evaluación
+
+Las personas usuarias evalúan si consideran que la implementación del Lago de Datos impulsa innovación dentro del Instituto.
+
+## Explicación de la métrica
+
+Esta métrica permite medir el impacto organizacional derivado de nuevas tecnologías y modelos de gestión de información.
+
+La innovación organizacional favorece:
+- optimización institucional,
+- mejora continua,
+- automatización,
+- y evolución tecnológica.
+
+También ayuda a identificar oportunidades para nuevos proyectos estratégicos.
+
+---
+
+# 17. Percepción de Agilidad Institucional
+
+## Método de evaluación
+
+Evaluación relacionada con:
+- rapidez de procesos,
+- tiempos de respuesta,
+- y eficiencia administrativa.
+
+## Explicación de la evaluación
+
+Las áreas administrativas califican si consideran que la plataforma acelera actividades relacionadas con consulta y análisis de información.
+
+## Explicación de la métrica
+
+Esta métrica permite identificar si el Lago de Datos mejora la capacidad institucional para responder de manera rápida y eficiente.
+
+Una mayor agilidad favorece:
+- productividad,
+- reducción de tiempos,
+- toma de decisiones oportuna,
+- y optimización operativa.
+
+---
+
+# 18. Nivel de Aprovechamiento de Información
+
+## Método de evaluación
+
+Encuestas sobre:
+- uso de datos,
+- aprovechamiento analítico,
+- y utilización de información institucional.
+
+## Explicación de la evaluación
+
+Las personas usuarias indican qué tan frecuentemente utilizan la información disponible para análisis y toma de decisiones.
+
+## Explicación de la métrica
+
+Esta métrica permite medir si las unidades administrativas realmente aprovechan la información almacenada en el Lago de Datos.
+
+Un mayor aprovechamiento favorece:
+- análisis estratégicos,
+- reutilización de información,
+- eficiencia institucional,
+- y generación de valor organizacional.
+
+---
+
+# 19. Percepción de Integración Institucional
+
+## Método de evaluación
+
+Evaluaciones relacionadas con:
+- interoperabilidad,
+- comunicación entre áreas,
+- y conexión de sistemas institucionales.
+
+## Explicación de la evaluación
+
+Las personas usuarias califican si consideran que la plataforma mejora la integración entre distintas unidades administrativas.
+
+## Explicación de la métrica
+
+Uno de los objetivos principales del Lago de Datos es eliminar silos de información.
+
+Esta métrica permite identificar si la plataforma realmente mejora:
+- integración organizacional,
+- intercambio de datos,
+- colaboración institucional,
+- y coordinación entre áreas.
+
+---
+
+# 20. Nivel de Madurez Tecnológica Percibida
+
+## Método de evaluación
+
+Encuestas relacionadas con:
+- infraestructura tecnológica,
+- modernización,
+- automatización,
+- y capacidades digitales institucionales.
+
+## Explicación de la evaluación
+
+Las personas usuarias evalúan qué tan avanzada consideran la infraestructura tecnológica del Instituto respecto a modelos tradicionales.
+
+## Explicación de la métrica
+
+Esta métrica ayuda a medir la percepción institucional sobre el nivel de evolución tecnológica alcanzado mediante el Lago de Datos.
+
+Una mayor madurez tecnológica favorece:
+- transformación digital,
+- competitividad institucional,
+- modernización operativa,
+- y sostenibilidad tecnológica.
+```
