@@ -278,6 +278,8 @@ También ayuda a identificar:
 - resistencia al cambio,
 - y oportunidades de mejora.
 
+---
+
 # 11. Percepción de Transparencia de Datos
 
 ## Método de evaluación
