@@ -9,12 +9,7 @@ Desarrollar un marco de métricas cuantitativas y cualitativas que permitan eval
 
 ---
 
-# 📁 Estructura del proyecto
-
-- [📂 Assets](#-assets)
-- [📂 Config](#-config)
-- [📂 Docs](#-docs)
-- [📂 Src](#-src)
+# Estructura del proyecto
 
 ---
 
