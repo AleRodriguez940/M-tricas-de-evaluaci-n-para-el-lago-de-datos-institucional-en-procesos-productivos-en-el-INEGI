@@ -379,6 +379,411 @@ Los beneficios pueden reflejarse en:
 - mejora operativa,
 - y optimización del análisis de información.
 
+---
+
+# 11. Tasa de Crecimiento de Datos
+
+## Fórmula
+
+$$
+C_{datos} = \frac{D_f - D_i}{D_i} \times 100
+$$
+
+## Componentes
+
+| Componente | Descripción |
+|---|---|
+| $C_{datos}$ | Tasa de crecimiento de datos |
+| $D_f$ | Volumen final de datos |
+| $D_i$ | Volumen inicial de datos |
+
+## Explicación de la fórmula
+
+La fórmula calcula el porcentaje de crecimiento del volumen de información almacenada dentro del Lago de Datos Institucional.
+
+Primero se resta el volumen inicial respecto al volumen final de datos. Posteriormente, el resultado se divide entre el volumen inicial y se multiplica por 100 para obtener un porcentaje.
+
+Un valor elevado indica un crecimiento acelerado de información institucional.
+
+## Explicación de la métrica
+
+El INEGI genera continuamente grandes cantidades de información estadística y geoespacial provenientes de censos, encuestas y registros administrativos.
+
+Esta métrica permite evaluar:
+- crecimiento institucional de datos,
+- necesidades futuras de almacenamiento,
+- capacidad de escalabilidad,
+- y planeación de infraestructura tecnológica.
+
+También ayuda a prevenir:
+- saturación de almacenamiento,
+- problemas de rendimiento,
+- y limitaciones operativas futuras.
+
+---
+
+# 12. Índice de Automatización de Procesos
+
+## Fórmula
+
+$$
+A_{procesos} = \frac{P_a}{P_t} \times 100
+$$
+
+## Componentes
+
+| Componente | Descripción |
+|---|---|
+| $A_{procesos}$ | Nivel de automatización |
+| $P_a$ | Procesos automatizados |
+| $P_t$ | Total de procesos |
+
+## Explicación de la fórmula
+
+La fórmula calcula el porcentaje de procesos institucionales que han sido automatizados mediante el uso del Lago de Datos.
+
+El número de procesos automatizados se divide entre el total de procesos existentes y posteriormente se multiplica por 100.
+
+Un porcentaje mayor representa un nivel más alto de automatización institucional.
+
+## Explicación de la métrica
+
+Actualmente muchos procesos relacionados con integración y análisis de información requieren actividades manuales.
+
+Esta métrica permite medir qué tanto contribuye la plataforma a:
+- reducir tareas repetitivas,
+- optimizar operaciones,
+- disminuir errores humanos,
+- y mejorar tiempos de procesamiento.
+
+Una mayor automatización favorece:
+- eficiencia institucional,
+- productividad,
+- y aprovechamiento tecnológico.
+
+---
+
+# 13. Tiempo de Recuperación ante Fallos
+
+## Fórmula
+
+$$
+TRF = T_{recuperacion} - T_{falla}
+$$
+
+## Componentes
+
+| Componente | Descripción |
+|---|---|
+| $TRF$ | Tiempo de recuperación ante fallos |
+| $T_{recuperacion}$ | Momento en que el sistema se recupera |
+| $T_{falla}$ | Momento en que ocurre la falla |
+
+## Explicación de la fórmula
+
+La fórmula calcula el tiempo que tarda la plataforma en volver a operar correctamente después de una interrupción o falla.
+
+El tiempo de recuperación se obtiene restando el momento en que ocurrió la falla respecto al momento en que el sistema vuelve a estar disponible.
+
+Mientras menor sea el resultado, mayor será la capacidad de recuperación tecnológica.
+
+## Explicación de la métrica
+
+El Lago de Datos Institucional debe garantizar continuidad operativa para múltiples unidades administrativas.
+
+Esta métrica ayuda a evaluar:
+- resiliencia tecnológica,
+- capacidad de respuesta,
+- estabilidad operativa,
+- y disponibilidad institucional.
+
+Reducir el tiempo de recuperación permite:
+- minimizar interrupciones,
+- evitar retrasos operativos,
+- y mantener acceso continuo a la información.
+
+---
+
+# 14. Índice de Uso de Recursos Computacionales
+
+## Fórmula
+
+$$
+U_{recursos} = \frac{R_{utilizados}}{R_{totales}} \times 100
+$$
+
+## Componentes
+
+| Componente | Descripción |
+|---|---|
+| $U_{recursos}$ | Nivel de uso de recursos |
+| $R_{utilizados}$ | Recursos utilizados |
+| $R_{totales}$ | Recursos disponibles |
+
+## Explicación de la fórmula
+
+La fórmula calcula el porcentaje de recursos computacionales utilizados respecto al total disponible.
+
+Los recursos utilizados se dividen entre los recursos totales y posteriormente se multiplica por 100.
+
+Un valor elevado indica un mayor consumo de infraestructura tecnológica.
+
+## Explicación de la métrica
+
+Esta métrica permite monitorear el uso de:
+- CPU,
+- memoria,
+- almacenamiento,
+- y capacidad de procesamiento.
+
+Es importante porque ayuda a:
+- optimizar infraestructura,
+- prevenir saturaciones,
+- mejorar rendimiento,
+- y planear expansión tecnológica futura.
+
+---
+
+# 15. Tasa de Consultas Exitosas
+
+## Fórmula
+
+$$
+Q_{exito} = \frac{Q_e}{Q_t} \times 100
+$$
+
+## Componentes
+
+| Componente | Descripción |
+|---|---|
+| $Q_{exito}$ | Tasa de consultas exitosas |
+| $Q_e$ | Consultas ejecutadas correctamente |
+| $Q_t$ | Total de consultas realizadas |
+
+## Explicación de la fórmula
+
+La fórmula calcula el porcentaje de consultas ejecutadas exitosamente dentro de la plataforma.
+
+Las consultas exitosas se dividen entre el total de consultas realizadas y posteriormente se multiplica por 100.
+
+Un porcentaje alto representa mejor estabilidad y funcionamiento operativo.
+
+## Explicación de la métrica
+
+El Lago de Datos será utilizado constantemente para:
+- búsquedas,
+- análisis,
+- consultas estadísticas,
+- y acceso a información geoespacial.
+
+Esta métrica permite identificar:
+- fallas operativas,
+- errores de consulta,
+- problemas de integración,
+- y limitaciones técnicas.
+
+Una mayor tasa de éxito mejora:
+- productividad,
+- confianza institucional,
+- y eficiencia analítica.
+
+---
+
+# 16. Índice de Integridad de Datos
+
+## Fórmula
+
+$$
+I_{integridad} = \frac{D_{integros}}{D_{totales}} \times 100
+$$
+
+## Componentes
+
+| Componente | Descripción |
+|---|---|
+| $I_{integridad}$ | Nivel de integridad |
+| $D_{integros}$ | Datos completos y válidos |
+| $D_{totales}$ | Total de datos evaluados |
+
+## Explicación de la fórmula
+
+La fórmula calcula el porcentaje de información que permanece completa, consistente y sin corrupción.
+
+Los datos íntegros se dividen entre el total de datos evaluados y posteriormente se multiplica por 100.
+
+Un valor alto representa mayor confiabilidad institucional.
+
+## Explicación de la métrica
+
+La integridad de datos es fundamental para garantizar resultados estadísticos precisos.
+
+Esta métrica ayuda a detectar:
+- registros incompletos,
+- corrupción de información,
+- inconsistencias,
+- y errores de almacenamiento.
+
+Mantener alta integridad fortalece:
+- calidad analítica,
+- confiabilidad institucional,
+- y toma de decisiones basada en datos confiables.
+
+---
+
+# 17. Consumo Promedio de Almacenamiento
+
+## Fórmula
+
+$$
+A_{promedio} = \frac{A_{total}}{n}
+$$
+
+## Componentes
+
+| Componente | Descripción |
+|---|---|
+| $A_{promedio}$ | Consumo promedio de almacenamiento |
+| $A_{total}$ | Almacenamiento total utilizado |
+| $n$ | Número de procesos o datasets |
+
+## Explicación de la fórmula
+
+La fórmula calcula el promedio de almacenamiento utilizado por cada conjunto de datos o proceso institucional.
+
+El almacenamiento total se divide entre el número total de elementos evaluados.
+
+Mientras menor sea el consumo promedio, mayor será la optimización de recursos.
+
+## Explicación de la métrica
+
+Esta métrica ayuda a controlar el crecimiento de almacenamiento institucional.
+
+También permite:
+- optimizar recursos tecnológicos,
+- identificar consumo excesivo,
+- planear expansión de infraestructura,
+- y reducir costos operativos.
+
+---
+
+# 18. Índice de Actualización de Datos
+
+## Fórmula
+
+$$
+A_{datos} = \frac{D_{actualizados}}{D_{totales}} \times 100
+$$
+
+## Componentes
+
+| Componente | Descripción |
+|---|---|
+| $A_{datos}$ | Nivel de actualización |
+| $D_{actualizados}$ | Datos actualizados |
+| $D_{totales}$ | Total de datos registrados |
+
+## Explicación de la fórmula
+
+La fórmula calcula el porcentaje de información que se encuentra actualizada dentro de la plataforma.
+
+Los datos actualizados se dividen entre el total de registros existentes y posteriormente se multiplica por 100.
+
+Un valor alto indica mayor vigencia de la información.
+
+## Explicación de la métrica
+
+El INEGI requiere información estadística y geoespacial constantemente actualizada.
+
+Esta métrica ayuda a evaluar:
+- vigencia de información,
+- mantenimiento de datasets,
+- actualización institucional,
+- y confiabilidad operativa.
+
+Mantener datos actualizados favorece:
+- análisis precisos,
+- decisiones oportunas,
+- y calidad institucional.
+
+---
+
+# 19. Tasa de Errores en Procesamiento
+
+## Fórmula
+
+$$
+E_{procesamiento} = \frac{Errores}{Procesos} \times 100
+$$
+
+## Componentes
+
+| Componente | Descripción |
+|---|---|
+| $E_{procesamiento}$ | Tasa de errores |
+| $Errores$ | Número de errores detectados |
+| $Procesos$ | Total de procesos ejecutados |
+
+## Explicación de la fórmula
+
+La fórmula calcula el porcentaje de errores detectados durante la ejecución de procesos institucionales.
+
+El número de errores se divide entre el total de procesos ejecutados y posteriormente se multiplica por 100.
+
+Mientras menor sea el resultado, mayor será la estabilidad operativa.
+
+## Explicación de la métrica
+
+Esta métrica permite identificar problemas relacionados con:
+- integración de información,
+- automatización,
+- procesamiento,
+- y transformación de datos.
+
+Reducir errores favorece:
+- calidad institucional,
+- estabilidad tecnológica,
+- eficiencia operativa,
+- y confiabilidad analítica.
+
+---
+
+# 20. Índice de Eficiencia Operacional
+
+## Fórmula
+
+$$
+E_{operacional} = \frac{Resultados}{Recursos}
+$$
+
+## Componentes
+
+| Componente | Descripción |
+|---|---|
+| $E_{operacional}$ | Nivel de eficiencia operacional |
+| $Resultados$ | Productos o resultados obtenidos |
+| $Recursos$ | Recursos utilizados |
+
+## Explicación de la fórmula
+
+La fórmula calcula qué tan eficientemente se utilizan los recursos disponibles para generar resultados institucionales.
+
+Los resultados obtenidos se dividen entre los recursos utilizados.
+
+Un valor mayor representa mejor aprovechamiento operativo.
+
+## Explicación de la métrica
+
+Esta métrica permite evaluar:
+- productividad institucional,
+- optimización tecnológica,
+- eficiencia de procesos,
+- y aprovechamiento de infraestructura.
+
+También ayuda a identificar:
+- desperdicio de recursos,
+- procesos ineficientes,
+- y oportunidades de mejora organizacional.
+
 
 
 
