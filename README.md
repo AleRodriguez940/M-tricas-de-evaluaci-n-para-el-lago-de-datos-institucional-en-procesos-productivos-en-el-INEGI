@@ -25,7 +25,7 @@ Contiene archivos estáticos y documentos de apoyo.
 ## 📑 Documentos
 
 - [IEEE Data Lake Strategy](assets/documents/IEEE_Data_Lake_Strategy_for_Data_Science_Workflows.pdf)
-- [Iniciativa Estrategia Digital](assets/documents/Iniciativa de Estrategia Digital - Lago de datos Institucional.pdf)
+- [Iniciativa Estrategia Digital](assets/documents/Iniciativa_Estrategia_Digital_Lago_Datos_Institucional.pdf)
 
 ---
 
