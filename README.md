@@ -2,16 +2,11 @@
 
 Repositorio enfocado en la investigación y definición de métricas cuantitativas y cualitativas para evaluar el Retorno de Inversión (ROI) del Lago de Datos Institucional del INEGI.
 
----
 # Objetivo General
 
 Desarrollar un marco de métricas cuantitativas y cualitativas que permitan evaluar el retorno de inversión del Lago de Datos Institucional.
 
----
-
 # Estructura del proyecto
-
----
 
 # 📂 Assets
 
@@ -22,8 +17,6 @@ Contiene archivos estáticos y documentos de apoyo.
 - [IEEE Data Lake Strategy](assets/documents/IEEE_Data_Lake_Strategy_for_Data_Science_Workflows.pdf)
 - [Iniciativa Estrategia Digital](assets/documents/Iniciativa_Estrategia_Digital_Lago_Datos_Institucional.pdf)
 
----
-
 # 📂 Docs
 
 Documentación principal del proyecto.
@@ -33,13 +26,10 @@ Documentación principal del proyecto.
 - [Métricas Cuantitativas](docs/métricas_cuantitativas.md)
 - [Métricas Qualitativas](docs/métricas_cualitativas.md)
 
----
-
 # 📂 Src
 
 Contiene scripts, procesamiento y análisis de datos.
 
----
 
 
 
