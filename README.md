@@ -24,7 +24,7 @@ Documentación principal del proyecto.
 ## 📋 Métricas
 
 - [Métricas Cuantitativas](docs/métricas_cuantitativas.md)
-- [Métricas Qualitativas](docs/métricas_cualitativas.md)
+- [Métricas Cualitativas](docs/métricas_cualitativas.md)
 
 # 📂 Src
 
