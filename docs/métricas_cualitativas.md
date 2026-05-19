@@ -1,4 +1,4 @@
-# Métricas cualitativas
+# 📋 Métricas Cualitativas
 
 Las métricas cualitativas permiten evaluar la percepción, experiencia de uso, aceptación institucional y beneficios intangibles relacionados con la implementación del Lago de Datos Institucional dentro del INEGI.
 
