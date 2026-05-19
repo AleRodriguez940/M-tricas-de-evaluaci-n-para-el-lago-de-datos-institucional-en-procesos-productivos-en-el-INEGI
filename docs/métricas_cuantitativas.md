@@ -1,4 +1,4 @@
-# Métricas cuantitativas 
+# 📈 Métricas Cuantitativas 
 
 Las métricas cuantitativas permiten medir de manera numérica el desempeño, eficiencia y beneficios obtenidos mediante la implementación del Lago de Datos Institucional dentro del INEGI.
 
