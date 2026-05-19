@@ -1,789 +1,528 @@
-# 📈 Métricas Cuantitativas
+# Métricas cuantitativas 
 
 Las métricas cuantitativas permiten medir de manera numérica el desempeño, eficiencia y beneficios obtenidos mediante la implementación del Lago de Datos Institucional dentro del INEGI.
 
+Cada métrica se presenta en el siguiente orden: explicación de la métrica, fórmula con tabla de componentes y explicación de la fórmula.
+
 ---
 
-# 1. Tiempo Promedio de Acceso a Datos
+## 1. Tiempo promedio de acceso a datos
 
-## Fórmula
+### Explicación de la métrica
+
+Se trabaja constantemente con grandes volúmenes de información estadística y geoespacial. Medir el tiempo promedio de acceso permite evaluar si el Lago de Datos mejora la velocidad de consulta y disponibilidad de información para las unidades administrativas. Una reducción en este tiempo acelera procesos institucionales, mejora la productividad y facilita la toma de decisiones oportuna.
+
+### Fórmula
 
 $$
 T_{acceso} = \frac{\sum_{i=1}^{n} t_i}{n}
 $$
 
-## Componentes
+### Componentes
 
 | Componente | Descripción |
-|---|---|
+|:----------:|-------------|
 | $T_{acceso}$ | Tiempo promedio de acceso a los datos |
-| $t_i$ | Tiempo individual de cada consulta |
+| $t_i$ | Tiempo individual de cada consulta $i$ |
 | $n$ | Número total de consultas realizadas |
 
-## Explicación de la fórmula
+### Explicación de la fórmula
 
-La fórmula calcula el promedio de tiempo que tarda el sistema en responder consultas de información. Para ello, se suman todos los tiempos individuales registrados en las consultas realizadas y posteriormente se divide entre el número total de consultas.
-
-Mientras menor sea el resultado obtenido, mayor será la eficiencia de acceso a los datos.
-
-## Explicación de la métrica
-
-Esta métrica es importante porque el INEGI trabaja constantemente con grandes volúmenes de información estadística y geoespacial. Actualmente existen procesos centralizados y silos de información que provocan retrasos en el acceso a los datos.
-
-Medir el tiempo promedio de acceso permite evaluar si el Lago de Datos Institucional realmente mejora la velocidad de consulta y disponibilidad de información para las unidades administrativas.
-
-Una reducción en este tiempo ayuda a:
-
-- acelerar procesos institucionales,
-- mejorar la productividad,
-- optimizar análisis estadísticos,
-- y facilitar la toma de decisiones basada en información disponible en tiempo oportuno.
+Se suman todos los tiempos individuales registrados en las consultas realizadas y se divide entre el número total de consultas. Mientras menor sea el resultado, mayor es la eficiencia de acceso.
 
 ---
 
-# 2. Índice de Reducción de Duplicidad de Datos
+## 2. Índice de reducción de duplicidad de datos
 
-## Fórmula
+### Explicación de la métrica
+
+Uno de los problemas identificados es la existencia de múltiples repositorios independientes con versiones repetidas de la misma información. La duplicidad genera inconsistencias, mayor consumo de almacenamiento y problemas de calidad. Esta métrica evalúa qué tanto mejora la organización y centralización de información dentro del Lago de Datos.
+
+### Fórmula
 
 $$
-R_{duplicidad} = \frac{D_i - D_f}{D_i} \times 100
+R_{dup} = \frac{D_i - D_f}{D_i} \times 100
 $$
 
-## Componentes
+### Componentes
 
 | Componente | Descripción |
-|---|---|
-| $R_{duplicidad}$ | Porcentaje de reducción de duplicidad |
-| $D_i$ | Cantidad inicial de datos duplicados |
-| $D_f$ | Cantidad final de datos duplicados |
+|:----------:|-------------|
+| $R_{dup}$ | Porcentaje de reducción de duplicidad |
+| $D_i$ | Cantidad inicial de registros duplicados |
+| $D_f$ | Cantidad final de registros duplicados |
 
-## Explicación de la fórmula
+### Explicación de la fórmula
 
-La fórmula calcula el porcentaje de reducción de datos duplicados dentro de la plataforma.
-
-Primero se resta la cantidad final de datos duplicados respecto a la cantidad inicial. Posteriormente, el resultado se divide entre la cantidad inicial y se multiplica por 100 para obtener un porcentaje.
-
-Un valor alto indica una mayor eliminación de información redundante.
-
-## Explicación de la métrica
-
-Actualmente, uno de los problemas identificados en el contexto del INEGI es la existencia de múltiples repositorios independientes que contienen versiones repetidas de la misma información.
-
-La duplicidad genera:
-
-- inconsistencias,
-- mayor consumo de almacenamiento,
-- dificultad para compartir información,
-- y problemas en la calidad de datos.
-
-Esta métrica permite evaluar qué tanto mejora la organización y centralización de la información dentro del Lago de Datos Institucional.
+Se resta la cantidad final de datos duplicados respecto a la cantidad inicial, se divide entre la cantidad inicial y se multiplica por 100. Un valor alto indica mayor eliminación de información redundante.
 
 ---
 
-# 3. Disponibilidad de la Plataforma
+## 3. Disponibilidad de la plataforma
 
-## Fórmula
+### Explicación de la métrica
+
+El Lago de Datos busca convertirse en una plataforma transversal utilizada por múltiples unidades administrativas. Las interrupciones frecuentes retrasan procesos, disminuyen la productividad y aumentan la dependencia entre áreas. Una alta disponibilidad garantiza continuidad operativa y acceso constante a la información institucional.
+
+### Fórmula
 
 $$
-Disponibilidad = \frac{T_{activo}}{T_{total}} \times 100
+D_{plat} = \frac{T_{activo}}{T_{total}} \times 100
 $$
 
-## Componentes
+### Componentes
 
 | Componente | Descripción |
-|---|---|
-| $T_{activo}$ | Tiempo en que la plataforma estuvo funcionando |
-| $T_{total}$ | Tiempo total evaluado |
+|:----------:|-------------|
+| $D_{plat}$ | Porcentaje de disponibilidad |
+| $T_{activo}$ | Tiempo en que la plataforma estuvo operativa |
+| $T_{total}$ | Tiempo total del período evaluado |
 
-## Explicación de la fórmula
+### Explicación de la fórmula
 
-La fórmula calcula el porcentaje de tiempo en el que la plataforma permanece operativa.
-
-Para ello, el tiempo activo de funcionamiento se divide entre el tiempo total evaluado y posteriormente se multiplica por 100.
-
-Entre mayor sea el porcentaje obtenido, mayor será la estabilidad de la plataforma.
-
-## Explicación de la métrica
-
-Esta métrica es importante debido a que el Lago de Datos Institucional busca convertirse en una plataforma transversal utilizada por múltiples unidades administrativas.
-
-Si la plataforma presenta interrupciones frecuentes:
-
-- se retrasan procesos,
-- disminuye la productividad,
-- y aumenta la dependencia entre áreas.
-
-Una alta disponibilidad garantiza continuidad operativa, acceso constante a la información y mayor confianza institucional.
+El tiempo activo de funcionamiento se divide entre el tiempo total evaluado y se multiplica por 100. Un valor cercano al 100% indica alta estabilidad operativa. El umbral mínimo aceptable es de 99.5%.
 
 ---
 
-# 4. Tiempo de Procesamiento ETL
+## 4. Tiempo de procesamiento ETL
 
-## Fórmula
+### Explicación de la métrica
+
+Los procesos ETL permiten extraer, transformar y cargar información proveniente de distintas fuentes. Se trabaja con grandes cantidades de información estadística y geoespacial proveniente de múltiples sistemas. Optimizar el tiempo ETL acelera la integración de información, mejora los tiempos de análisis y optimiza la generación de productos estadísticos.
+
+### Fórmula
 
 $$
 T_{ETL} = T_{fin} - T_{inicio}
 $$
 
-## Componentes
+### Componentes
 
 | Componente | Descripción |
-|---|---|
+|:----------:|-------------|
 | $T_{ETL}$ | Tiempo total del proceso ETL |
-| $T_{fin}$ | Hora de finalización del proceso |
-| $T_{inicio}$ | Hora de inicio del proceso |
+| $T_{fin}$ | Momento de finalización del proceso |
+| $T_{inicio}$ | Momento de inicio del proceso |
 
-## Explicación de la fórmula
+### Explicación de la fórmula
 
-La fórmula calcula el tiempo total requerido para ejecutar un proceso ETL.
-
-Se obtiene restando el tiempo de inicio respecto al tiempo final del procesamiento.
-
-Un menor tiempo ETL indica mayor eficiencia en los procesos de integración de datos.
-
-## Explicación de la métrica
-
-Los procesos ETL permiten extraer, transformar y cargar información proveniente de distintas fuentes.
-
-En el contexto del INEGI, esta métrica es importante porque la institución trabaja con grandes cantidades de información estadística y geoespacial provenientes de múltiples sistemas.
-
-Optimizar el tiempo ETL permite:
-
-- acelerar la integración de información,
-- mejorar tiempos de análisis,
-- reducir retrasos operativos,
-- y optimizar la generación de productos estadísticos.
+Se obtiene restando el momento de inicio respecto al momento de finalización del procesamiento. Un menor tiempo ETL indica mayor eficiencia en los procesos de integración de datos.
 
 ---
 
-# 5. Índice de Interoperabilidad de Datos
+## 5. Índice de interoperabilidad de datos
 
-## Fórmula
+### Explicación de la métrica
+
+Otro de los principales problemas es la existencia de silos de información. Esta métrica evalúa qué tan bien pueden compartir información las distintas áreas del Instituto, facilitando el trabajo colaborativo, la reutilización de datos y la integración de análisis estadísticos y geoespaciales.
+
+### Fórmula
 
 $$
 I_{interop} = \frac{D_{integrados}}{D_{totales}} \times 100
 $$
 
-## Componentes
+### Componentes
 
 | Componente | Descripción |
-|---|---|
+|:----------:|-------------|
 | $I_{interop}$ | Nivel de interoperabilidad |
-| $D_{integrados}$ | Número de datasets integrados |
-| $D_{totales}$ | Total de datasets existentes |
+| $D_{integrados}$ | Número de datasets integrados correctamente |
+| $D_{totales}$ | Total de datasets existentes en el lago |
 
-## Explicación de la fórmula
+### Explicación de la fórmula
 
-La fórmula calcula el porcentaje de conjuntos de datos que pueden interoperar correctamente dentro de la plataforma.
-
-El número de datasets integrados se divide entre el total de datasets existentes y posteriormente se multiplica por 100.
-
-Un porcentaje mayor representa mejor integración institucional.
-
-## Explicación de la métrica
-
-Uno de los principales problemas identificados en el contexto institucional es la existencia de silos de información.
-
-Esta métrica permite evaluar qué tan bien pueden compartir información las distintas áreas del Instituto.
-
-Una mayor interoperabilidad ayuda a:
-
-- facilitar el trabajo colaborativo,
-- reutilizar información,
-- integrar análisis estadísticos y geoespaciales,
-- y mejorar la comunicación entre unidades administrativas.
+El número de datasets integrados se divide entre el total de datasets existentes y se multiplica por 100. Un porcentaje mayor representa mejor integración institucional y menor existencia de silos de información.
 
 ---
 
-# 6. Velocidad de Transferencia de Datos
+## 6. Índice de calidad de datos
 
-## Fórmula
+### Explicación de la métrica
+
+La calidad de datos es fundamental para garantizar resultados estadísticos confiables. Esta métrica ayuda a identificar inconsistencias, errores, datos incompletos y problemas de validez en los registros individuales. Mejorar la calidad fortalece la confianza institucional y la toma de decisiones basada en información fiable.
+
+### Fórmula
 
 $$
-V_{transferencia} = \frac{Datos\ transferidos}{Tiempo}
+ICD = \frac{D_{correctos}}{D_{totales}} \times 100
 $$
 
-## Componentes
+### Componentes
 
 | Componente | Descripción |
-|---|---|
-| $V_{transferencia}$ | Velocidad de transferencia |
-| $Datos\ transferidos$ | Cantidad de información enviada |
-| $Tiempo$ | Tiempo requerido para la transferencia |
+|:----------:|-------------|
+| $ICD$ | Índice de calidad de datos |
+| $D_{correctos}$ | Registros válidos, consistentes y sin errores |
+| $D_{totales}$ | Total de registros evaluados |
 
-## Explicación de la fórmula
+### Explicación de la fórmula
 
-La fórmula calcula la velocidad promedio con la que la información es transferida entre sistemas.
-
-La cantidad de datos enviados se divide entre el tiempo utilizado para la transferencia.
-
-Entre mayor sea el resultado, mayor será la capacidad de transmisión de información.
-
-## Explicación de la métrica
-
-El Lago de Datos Institucional manejará grandes volúmenes de información estadística y geoespacial.
-
-Por ello, medir la velocidad de transferencia es importante para garantizar:
-
-- comunicación eficiente entre sistemas,
-- procesamiento oportuno,
-- intercambio rápido de información,
-- y reducción de tiempos de espera.
+Los datos correctos se dividen entre el total de registros evaluados y se multiplica por 100. Un valor alto representa mayor precisión y confiabilidad de la información. Se recomienda un umbral mínimo de 95% para los datasets.
 
 ---
 
-# 7. Volumen de Datos Procesados
+## 7. Índice de integridad referencial de datos
 
-## Fórmula
+### Explicación de la métrica
+
+En un lago de datos que integra fuentes heterogéneas como censos, encuestas y cartografía, es crítico que las relaciones entre entidades se mantengan sin corrupción. Un registro de vivienda debe poder vincularse correctamente con su AGEB, municipio y entidad federativa. Esta métrica detecta rupturas en esas cadenas de referencia que afectarían la confiabilidad de los análisis integrados. A diferencia del índice de calidad, que evalúa la validez de registros individuales, esta métrica se enfoca en la consistencia de los vínculos entre datasets.
+
+### Fórmula
 
 $$
-V_{datos} = \sum_{i=1}^{n} d_i
+I_{integ} = \frac{R_{validas}}{R_{totales}} \times 100
 $$
 
-## Componentes
+### Componentes
 
 | Componente | Descripción |
-|---|---|
-| $V_{datos}$ | Volumen total de datos procesados |
-| $d_i$ | Cantidad de datos procesados por operación |
+|:----------:|-------------|
+| $I_{integ}$ | Índice de integridad referencial |
+| $R_{validas}$ | Relaciones entre tablas o datasets sin inconsistencias |
+| $R_{totales}$ | Total de relaciones evaluadas |
 
-## Explicación de la fórmula
+### Explicación de la fórmula
 
-La fórmula calcula el volumen total de información procesada por la plataforma.
-
-Para ello, se suman todos los conjuntos de datos procesados durante un periodo determinado.
-
-Un mayor volumen indica mayor capacidad de procesamiento institucional.
-
-## Explicación de la métrica
-
-El INEGI trabaja constantemente con información masiva proveniente de censos, encuestas y datos geoespaciales.
-
-Esta métrica permite evaluar si la infraestructura tecnológica puede soportar el crecimiento y demanda institucional.
-
-También ayuda a identificar necesidades futuras relacionadas con almacenamiento y procesamiento.
+Las relaciones válidas entre entidades del lago se dividen entre el total de relaciones evaluadas y se multiplica por 100. Un valor cercano al 100% indica que las cadenas de referencia entre datasets se mantienen íntegras y sin rupturas.
 
 ---
 
-# 8. Índice de Calidad de Datos
+## 8. Tasa de incidentes de seguridad
 
-## Fórmula
+### Explicación de la métrica
+
+Se administra información sensible y estratégica de carácter estadístico y geoespacial. Es importante monitorear continuamente accesos no autorizados, vulnerabilidades, intentos de ataque y fallas de seguridad. Esta métrica fortalece la gobernanza y protección de los datos institucionales, y permite identificar tendencias de riesgo a lo largo del tiempo.
+
+### Fórmula
 
 $$
-C_{datos} = \frac{Datos\ correctos}{Datos\ totales} \times 100
+I_{seg} = \frac{N_{incidentes}}{T_{periodo}}
 $$
 
-## Componentes
+### Componentes
 
 | Componente | Descripción |
-|---|---|
-| $C_{datos}$ | Nivel de calidad de datos |
-| $Datos\ correctos$ | Datos válidos y consistentes |
-| $Datos\ totales$ | Total de datos evaluados |
+|:----------:|-------------|
+| $I_{seg}$ | Tasa de incidentes de seguridad por unidad de tiempo |
+| $N_{incidentes}$ | Número de incidentes detectados en el período |
+| $T_{periodo}$ | Duración del período evaluado (días, semanas o meses) |
 
-## Explicación de la fórmula
+### Explicación de la fórmula
 
-La fórmula calcula el porcentaje de datos que cumplen criterios de calidad.
-
-Los datos correctos se dividen entre el total de registros evaluados y posteriormente se multiplica por 100.
-
-Un valor alto representa mayor precisión y confiabilidad.
-
-## Explicación de la métrica
-
-La calidad de datos es fundamental para garantizar resultados estadísticos confiables.
-
-Esta métrica ayuda a identificar:
-
-- inconsistencias,
-- errores,
-- datos incompletos,
-- y problemas de integridad.
-
-Mejorar la calidad de datos fortalece la confianza institucional y mejora la toma de decisiones.
+El número de incidentes detectados se divide entre la duración del período evaluado. El resultado expresa la frecuencia de incidentes por unidad de tiempo. Mientras menor sea el valor, mayor es el nivel de seguridad institucional.
 
 ---
 
-# 9. Tasa de Incidentes de Seguridad
+## 9. Retorno de inversión (ROI)
 
-## Fórmula
+### Explicación de la métrica
+
+Esta es una de las métricas más importantes. Permite determinar si la implementación del Lago de Datos realmente genera valor para el INEGI, considerando reducción de costos operativos, ahorro de tiempo, automatización de procesos y optimización del análisis de información. Un ROI positivo justifica la continuidad y expansión de la inversión institucional.
+
+### Fórmula
 
 $$
-I_{seguridad} = \frac{Incidentes}{Periodo}
+ROI = \frac{B_{total} - C_{total}}{C_{total}} \times 100
 $$
 
-## Componentes
+### Componentes
 
 | Componente | Descripción |
-|---|---|
-| $I_{seguridad}$ | Tasa de incidentes de seguridad |
-| $Incidentes$ | Número de incidentes detectados |
-| $Periodo$ | Tiempo evaluado |
+|:----------:|-------------|
+| $ROI$ | Retorno de inversión expresado en porcentaje |
+| $B_{total}$ | Beneficios totales obtenidos (monetarios y operativos cuantificados) |
+| $C_{total}$ | Costos totales de implementación y operación |
 
-## Explicación de la fórmula
+### Explicación de la fórmula
 
-La fórmula calcula el promedio de incidentes de seguridad detectados durante un periodo específico.
-
-Mientras menor sea el valor obtenido, mayor será el nivel de seguridad institucional.
-
-## Explicación de la métrica
-
-El INEGI administra información sensible y estratégica.
-
-Por ello, es importante monitorear continuamente:
-
-- accesos no autorizados,
-- vulnerabilidades,
-- intentos de ataque,
-- y fallas de seguridad.
-
-Esta métrica ayuda a fortalecer la gobernanza y protección de los datos institucionales.
+Se restan los costos totales a los beneficios obtenidos, el resultado se divide entre los costos totales y se multiplica por 100. Un ROI positivo indica que la inversión genera valor institucional neto. Los beneficios incluyen reducción de costos operativos, ahorro en tiempo de procesos y disminución de errores cuantificados económicamente.
 
 ---
 
-# 10. Retorno de Inversión (ROI)
+## 10. Tasa de crecimiento del volumen de datos
 
-## Fórmula
+### Explicación de la métrica
+
+Se generan continuamente grandes cantidades de información estadística y geoespacial con cada ciclo censal, encuesta o actualización cartográfica. Esta métrica permite evaluar el crecimiento institucional de datos, las necesidades futuras de almacenamiento y la capacidad de escalabilidad. También ayuda a prevenir saturación de infraestructura y limitaciones operativas futuras.
+
+### Fórmula
 
 $$
-ROI = \frac{Beneficios - Costos}{Costos} \times 100
+TC_{datos} = \frac{V_f - V_i}{V_i} \times 100
 $$
 
-## Componentes
+### Componentes
 
 | Componente | Descripción |
-|---|---|
-| $ROI$ | Retorno de inversión |
-| $Beneficios$ | Beneficios obtenidos |
-| $Costos$ | Inversión realizada |
+|:----------:|-------------|
+| $TC_{datos}$ | Tasa de crecimiento del volumen de datos |
+| $V_f$ | Volumen final de datos almacenados |
+| $V_i$ | Volumen inicial de datos almacenados |
 
-## Explicación de la fórmula
+### Explicación de la fórmula
 
-La fórmula calcula el porcentaje de ganancia o beneficio obtenido respecto a la inversión realizada.
-
-Primero se restan los costos a los beneficios obtenidos. Posteriormente, el resultado se divide entre los costos y se multiplica por 100.
-
-Un ROI positivo indica que la inversión genera beneficios institucionales.
-
-## Explicación de la métrica
-
-Esta es una de las métricas más importantes del proyecto.
-
-Permite determinar si la implementación del Lago de Datos Institucional realmente genera valor para el INEGI.
-
-Los beneficios pueden reflejarse en:
-
-- reducción de costos,
-- ahorro de tiempo,
-- automatización de procesos,
-- mejora operativa,
-- y optimización del análisis de información.
+Se resta el volumen inicial al volumen final, el resultado se divide entre el volumen inicial y se multiplica por 100. Un valor elevado indica crecimiento acelerado de información institucional que debe anticiparse en la planeación de infraestructura.
 
 ---
 
-# 11. Tasa de Crecimiento de Datos
+## 11. Índice de automatización de procesos
 
-## Fórmula
+### Explicación de la métrica
+
+Actualmente muchos procesos relacionados con integración y análisis de información requieren actividades manuales. Esta métrica mide qué tanto contribuye la plataforma a reducir tareas repetitivas, minimizar errores humanos y mejorar tiempos de procesamiento. Una mayor automatización favorece la eficiencia y el aprovechamiento tecnológico institucional.
+
+### Fórmula
 
 $$
-C_{datos} = \frac{D_f - D_i}{D_i} \times 100
+A_{proc} = \frac{P_{automatizados}}{P_{totales}} \times 100
 $$
 
-## Componentes
+### Componentes
 
 | Componente | Descripción |
-|---|---|
-| $C_{datos}$ | Tasa de crecimiento de datos |
-| $D_f$ | Volumen final de datos |
-| $D_i$ | Volumen inicial de datos |
+|:----------:|-------------|
+| $A_{proc}$ | Nivel de automatización de procesos |
+| $P_{automatizados}$ | Procesos ejecutados sin intervención manual |
+| $P_{totales}$ | Total de procesos institucionales evaluados |
 
-## Explicación de la fórmula
+### Explicación de la fórmula
 
-La fórmula calcula el porcentaje de crecimiento del volumen de información almacenada dentro del Lago de Datos Institucional.
-
-Primero se resta el volumen inicial respecto al volumen final de datos. Posteriormente, el resultado se divide entre el volumen inicial y se multiplica por 100 para obtener un porcentaje.
-
-Un valor elevado indica un crecimiento acelerado de información institucional.
-
-## Explicación de la métrica
-
-El INEGI genera continuamente grandes cantidades de información estadística y geoespacial provenientes de censos, encuestas y registros administrativos.
-
-Esta métrica permite evaluar:
-- crecimiento institucional de datos,
-- necesidades futuras de almacenamiento,
-- capacidad de escalabilidad,
-- y planeación de infraestructura tecnológica.
-
-También ayuda a prevenir:
-- saturación de almacenamiento,
-- problemas de rendimiento,
-- y limitaciones operativas futuras.
+El número de procesos automatizados se divide entre el total de procesos existentes y se multiplica por 100. Un porcentaje mayor representa un nivel más alto de automatización institucional.
 
 ---
 
-# 12. Índice de Automatización de Procesos
+## 12. Tiempo de recuperación ante fallos (TRF)
 
-## Fórmula
+### Explicación de la métrica
 
-$$
-A_{procesos} = \frac{P_a}{P_t} \times 100
-$$
+El Lago de Datos debe garantizar continuidad operativa para múltiples unidades administrativas. Esta métrica evalúa la resiliencia tecnológica, la capacidad de respuesta ante interrupciones y la estabilidad operativa de la plataforma. Reducir el tiempo de recuperación minimiza el impacto de fallas sobre los procesos institucionales.
 
-## Componentes
-
-| Componente | Descripción |
-|---|---|
-| $A_{procesos}$ | Nivel de automatización |
-| $P_a$ | Procesos automatizados |
-| $P_t$ | Total de procesos |
-
-## Explicación de la fórmula
-
-La fórmula calcula el porcentaje de procesos institucionales que han sido automatizados mediante el uso del Lago de Datos.
-
-El número de procesos automatizados se divide entre el total de procesos existentes y posteriormente se multiplica por 100.
-
-Un porcentaje mayor representa un nivel más alto de automatización institucional.
-
-## Explicación de la métrica
-
-Actualmente muchos procesos relacionados con integración y análisis de información requieren actividades manuales.
-
-Esta métrica permite medir qué tanto contribuye la plataforma a:
-- reducir tareas repetitivas,
-- optimizar operaciones,
-- disminuir errores humanos,
-- y mejorar tiempos de procesamiento.
-
-Una mayor automatización favorece:
-- eficiencia institucional,
-- productividad,
-- y aprovechamiento tecnológico.
-
----
-
-# 13. Tiempo de Recuperación ante Fallos
-
-## Fórmula
+### Fórmula
 
 $$
 TRF = T_{recuperacion} - T_{falla}
 $$
 
-## Componentes
+### Componentes
 
 | Componente | Descripción |
-|---|---|
+|:----------:|-------------|
 | $TRF$ | Tiempo de recuperación ante fallos |
-| $T_{recuperacion}$ | Momento en que el sistema se recupera |
-| $T_{falla}$ | Momento en que ocurre la falla |
+| $T_{recuperacion}$ | Momento en que el sistema vuelve a operar correctamente |
+| $T_{falla}$ | Momento en que ocurrió la interrupción |
 
-## Explicación de la fórmula
+### Explicación de la fórmula
 
-La fórmula calcula el tiempo que tarda la plataforma en volver a operar correctamente después de una interrupción o falla.
-
-El tiempo de recuperación se obtiene restando el momento en que ocurrió la falla respecto al momento en que el sistema vuelve a estar disponible.
-
-Mientras menor sea el resultado, mayor será la capacidad de recuperación tecnológica.
-
-## Explicación de la métrica
-
-El Lago de Datos Institucional debe garantizar continuidad operativa para múltiples unidades administrativas.
-
-Esta métrica ayuda a evaluar:
-- resiliencia tecnológica,
-- capacidad de respuesta,
-- estabilidad operativa,
-- y disponibilidad institucional.
-
-Reducir el tiempo de recuperación permite:
-- minimizar interrupciones,
-- evitar retrasos operativos,
-- y mantener acceso continuo a la información.
+Se resta el momento de inicio de la falla al momento de recuperación del sistema. Mientras menor sea el resultado, mayor es la resiliencia tecnológica de la plataforma.
 
 ---
 
-# 14. Índice de Uso de Recursos Computacionales
+## 13. Índice de uso de recursos computacionales
 
-## Fórmula
+### Explicación de la métrica
+
+Esta métrica permite monitorear el uso de CPU, memoria, almacenamiento y capacidad de procesamiento de la infraestructura del lago. Es importante porque ayuda a optimizar recursos, prevenir saturaciones, mejorar el rendimiento y planear la expansión tecnológica futura. Un valor muy alto señala riesgo de saturación; un valor muy bajo puede indicar subutilización de infraestructura costosa.
+
+### Fórmula
 
 $$
-U_{recursos} = \frac{R_{utilizados}}{R_{totales}} \times 100
+U_{rec} = \frac{R_{utilizados}}{R_{disponibles}} \times 100
 $$
 
-## Componentes
+### Componentes
 
 | Componente | Descripción |
-|---|---|
-| $U_{recursos}$ | Nivel de uso de recursos |
-| $R_{utilizados}$ | Recursos utilizados |
-| $R_{totales}$ | Recursos disponibles |
+|:----------:|-------------|
+| $U_{rec}$ | Porcentaje de uso de recursos computacionales |
+| $R_{utilizados}$ | Recursos efectivamente utilizados (CPU, memoria, almacenamiento) |
+| $R_{disponibles}$ | Recursos totales disponibles en la infraestructura |
 
-## Explicación de la fórmula
+### Explicación de la fórmula
 
-La fórmula calcula el porcentaje de recursos computacionales utilizados respecto al total disponible.
-
-Los recursos utilizados se dividen entre los recursos totales y posteriormente se multiplica por 100.
-
-Un valor elevado indica un mayor consumo de infraestructura tecnológica.
-
-## Explicación de la métrica
-
-Esta métrica permite monitorear el uso de:
-- CPU,
-- memoria,
-- almacenamiento,
-- y capacidad de procesamiento.
-
-Es importante porque ayuda a:
-- optimizar infraestructura,
-- prevenir saturaciones,
-- mejorar rendimiento,
-- y planear expansión tecnológica futura.
+Los recursos utilizados se dividen entre los recursos totales disponibles y se multiplica por 100. Se recomienda mantener el valor entre 60% y 85% para garantizar rendimiento óptimo sin riesgo de saturación.
 
 ---
 
-# 15. Tasa de Consultas Exitosas
+## 14. Tasa de consultas exitosas
 
-## Fórmula
+### Explicación de la métrica
+
+El Lago de Datos será utilizado constantemente para búsquedas, análisis, consultas estadísticas y acceso a información geoespacial. Esta métrica permite identificar fallas operativas, errores de consulta, problemas de integración y limitaciones técnicas que afectan la experiencia y productividad de las personas usuarias.
+
+### Fórmula
 
 $$
-Q_{exito} = \frac{Q_e}{Q_t} \times 100
+Q_{exit} = \frac{Q_{exitosas}}{Q_{totales}} \times 100
 $$
 
-## Componentes
+### Componentes
 
 | Componente | Descripción |
-|---|---|
-| $Q_{exito}$ | Tasa de consultas exitosas |
-| $Q_e$ | Consultas ejecutadas correctamente |
-| $Q_t$ | Total de consultas realizadas |
+|:----------:|-------------|
+| $Q_{exit}$ | Tasa de consultas ejecutadas exitosamente |
+| $Q_{exitosas}$ | Consultas completadas sin error |
+| $Q_{totales}$ | Total de consultas realizadas en el período |
 
-## Explicación de la fórmula
+### Explicación de la fórmula
 
-La fórmula calcula el porcentaje de consultas ejecutadas exitosamente dentro de la plataforma.
-
-Las consultas exitosas se dividen entre el total de consultas realizadas y posteriormente se multiplica por 100.
-
-Un porcentaje alto representa mejor estabilidad y funcionamiento operativo.
-
-## Explicación de la métrica
-
-El Lago de Datos será utilizado constantemente para:
-- búsquedas,
-- análisis,
-- consultas estadísticas,
-- y acceso a información geoespacial.
-
-Esta métrica permite identificar:
-- fallas operativas,
-- errores de consulta,
-- problemas de integración,
-- y limitaciones técnicas.
-
-Una mayor tasa de éxito mejora:
-- productividad,
-- confianza institucional,
-- y eficiencia analítica.
+Las consultas exitosas se dividen entre el total de consultas realizadas y se multiplica por 100. Un porcentaje alto representa mejor estabilidad y funcionamiento operativo de la plataforma.
 
 ---
 
-# 16. Índice de Integridad de Datos
+## 15. Índice de actualización de datasets
 
-## Fórmula
+### Explicación de la métrica
+
+Se requiere información estadística y geoespacial constantemente actualizada para sus procesos de análisis y generación de productos. Esta métrica evalúa la vigencia de la información disponible en el lago, el mantenimiento de datasets y la confiabilidad operativa de la plataforma, favoreciendo análisis precisos y decisiones oportunas.
+
+### Fórmula
 
 $$
-I_{integridad} = \frac{D_{integros}}{D_{totales}} \times 100
+IA_{datos} = \frac{D_{actualizados}}{D_{totales}} \times 100
 $$
 
-## Componentes
+### Componentes
 
 | Componente | Descripción |
-|---|---|
-| $I_{integridad}$ | Nivel de integridad |
-| $D_{integros}$ | Datos completos y válidos |
-| $D_{totales}$ | Total de datos evaluados |
+|:----------:|-------------|
+| $IA_{datos}$ | Porcentaje de datasets actualizados |
+| $D_{actualizados}$ | Datasets que corresponden a la versión o fecha más reciente |
+| $D_{totales}$ | Total de datasets registrados en el lago |
 
-## Explicación de la fórmula
+### Explicación de la fórmula
 
-La fórmula calcula el porcentaje de información que permanece completa, consistente y sin corrupción.
-
-Los datos íntegros se dividen entre el total de datos evaluados y posteriormente se multiplica por 100.
-
-Un valor alto representa mayor confiabilidad institucional.
-
-## Explicación de la métrica
-
-La integridad de datos es fundamental para garantizar resultados estadísticos precisos.
-
-Esta métrica ayuda a detectar:
-- registros incompletos,
-- corrupción de información,
-- inconsistencias,
-- y errores de almacenamiento.
-
-Mantener alta integridad fortalece:
-- calidad analítica,
-- confiabilidad institucional,
-- y toma de decisiones basada en datos confiables.
+Los datasets actualizados se dividen entre el total de datasets registrados y se multiplica por 100. Un valor alto indica mayor vigencia de la información disponible en la plataforma.
 
 ---
 
-# 17. Consumo Promedio de Almacenamiento
+## 16. Tasa de errores en procesamiento
 
-## Fórmula
+### Explicación de la métrica
+
+Esta métrica permite identificar problemas relacionados con integración de información, automatización, procesamiento y transformación de datos. Reducir la tasa de errores favorece la calidad institucional, la estabilidad tecnológica y la confiabilidad analítica de los productos estadísticos y geoespaciales generados.
+
+### Fórmula
 
 $$
-A_{promedio} = \frac{A_{total}}{n}
+E_{proc} = \frac{N_{errores}}{P_{ejecutados}} \times 100
 $$
 
-## Componentes
+### Componentes
 
 | Componente | Descripción |
-|---|---|
-| $A_{promedio}$ | Consumo promedio de almacenamiento |
-| $A_{total}$ | Almacenamiento total utilizado |
-| $n$ | Número de procesos o datasets |
+|:----------:|-------------|
+| $E_{proc}$ | Tasa de errores en procesamiento |
+| $N_{errores}$ | Número de errores detectados durante la ejecución |
+| $P_{ejecutados}$ | Total de procesos ejecutados en el período |
 
-## Explicación de la fórmula
+### Explicación de la fórmula
 
-La fórmula calcula el promedio de almacenamiento utilizado por cada conjunto de datos o proceso institucional.
-
-El almacenamiento total se divide entre el número total de elementos evaluados.
-
-Mientras menor sea el consumo promedio, mayor será la optimización de recursos.
-
-## Explicación de la métrica
-
-Esta métrica ayuda a controlar el crecimiento de almacenamiento institucional.
-
-También permite:
-- optimizar recursos tecnológicos,
-- identificar consumo excesivo,
-- planear expansión de infraestructura,
-- y reducir costos operativos.
+El número de errores se divide entre el total de procesos ejecutados y se multiplica por 100. Mientras menor sea el resultado, mayor es la estabilidad operativa de la plataforma.
 
 ---
 
-# 18. Índice de Actualización de Datos
+## 17. Coeficiente de variación de estimadores muestrales
 
-## Fórmula
+### Explicación de la métrica
+
+Esta métrica es específica del contexto estadístico y aplica a las estimaciones generadas a partir de microdatos de encuestas como ENOE, ENIGH o ENSANUT almacenadas en el lago. Permite evaluar la precisión estadística de los resultados y garantizar que los análisis derivados del lago cumplan los estándares metodológicos del Instituto. El INEGI establece que estimaciones con $CV > 15\%$ requieren nota metodológica de uso y deben interpretarse con cautela.
+
+### Fórmula
 
 $$
-A_{datos} = \frac{D_{actualizados}}{D_{totales}} \times 100
+CV = \frac{s}{\bar{x}} \times 100
 $$
 
-## Componentes
+### Componentes
 
 | Componente | Descripción |
-|---|---|
-| $A_{datos}$ | Nivel de actualización |
-| $D_{actualizados}$ | Datos actualizados |
-| $D_{totales}$ | Total de datos registrados |
+|:----------:|-------------|
+| $CV$ | Coeficiente de variación expresado en porcentaje |
+| $s$ | Desviación estándar del estimador |
+| $\bar{x}$ | Media del estimador |
 
-## Explicación de la fórmula
+### Explicación de la fórmula
 
-La fórmula calcula el porcentaje de información que se encuentra actualizada dentro de la plataforma.
-
-Los datos actualizados se dividen entre el total de registros existentes y posteriormente se multiplica por 100.
-
-Un valor alto indica mayor vigencia de la información.
-
-## Explicación de la métrica
-
-El INEGI requiere información estadística y geoespacial constantemente actualizada.
-
-Esta métrica ayuda a evaluar:
-- vigencia de información,
-- mantenimiento de datasets,
-- actualización institucional,
-- y confiabilidad operativa.
-
-Mantener datos actualizados favorece:
-- análisis precisos,
-- decisiones oportunas,
-- y calidad institucional.
+La desviación estándar del estimador se divide entre su media y se multiplica por 100. El resultado indica la precisión relativa de las estimaciones derivadas de encuestas por muestreo. Valores menores indican estimaciones más precisas y confiables.
 
 ---
 
-# 19. Tasa de Errores en Procesamiento
+## 18. Índice de cobertura geográfica
 
-## Fórmula
+### Explicación de la métrica
+
+Esta métrica es exclusiva del contexto geoespacial. Evalúa si el lago contiene la totalidad de las unidades del Marco Geoestadístico Nacional: entidades federativas, municipios, localidades, AGEBs y manzanas. Una cobertura incompleta limitaría la capacidad de realizar análisis territoriales integrales, afectando la generación de estadísticas regionales y municipales.
+
+### Fórmula
 
 $$
-E_{procesamiento} = \frac{Errores}{Procesos} \times 100
+ICG = \frac{U_{presentes}}{U_{oficiales}} \times 100
 $$
 
-## Componentes
+### Componentes
 
 | Componente | Descripción |
-|---|---|
-| $E_{procesamiento}$ | Tasa de errores |
-| $Errores$ | Número de errores detectados |
-| $Procesos$ | Total de procesos ejecutados |
+|:----------:|-------------|
+| $ICG$ | Índice de cobertura geográfica |
+| $U_{presentes}$ | Unidades geoestadísticas presentes en el lago |
+| $U_{oficiales}$ | Total de unidades publicadas en el Marco Geoestadístico Nacional |
 
-## Explicación de la fórmula
+### Explicación de la fórmula
 
-La fórmula calcula el porcentaje de errores detectados durante la ejecución de procesos institucionales.
-
-El número de errores se divide entre el total de procesos ejecutados y posteriormente se multiplica por 100.
-
-Mientras menor sea el resultado, mayor será la estabilidad operativa.
-
-## Explicación de la métrica
-
-Esta métrica permite identificar problemas relacionados con:
-- integración de información,
-- automatización,
-- procesamiento,
-- y transformación de datos.
-
-Reducir errores favorece:
-- calidad institucional,
-- estabilidad tecnológica,
-- eficiencia operativa,
-- y confiabilidad analítica.
+Las unidades geoestadísticas presentes en el lago se dividen entre el total oficial publicado y se multiplica por 100. Un valor cercano al 100% indica que el lago representa de forma completa el territorio nacional conforme al Marco Geoestadístico Nacional vigente.
 
 ---
 
-# 20. Índice de Eficiencia Operacional
+## 19. Tasa de adopción por unidad administrativa
 
-## Fórmula
+### Explicación de la métrica
+
+Esta métrica complementa la percepción cualitativa de adopción con un dato objetivo y verificable. Permite identificar áreas que aún no utilizan la plataforma, orientar estrategias de capacitación diferenciada y medir el avance real de la implementación a lo largo del tiempo en toda la estructura del Instituto.
+
+### Fórmula
 
 $$
-E_{operacional} = \frac{Resultados}{Recursos}
+TAU = \frac{UA_{activas}}{UA_{totales}} \times 100
 $$
 
-## Componentes
+### Componentes
 
 | Componente | Descripción |
-|---|---|
-| $E_{operacional}$ | Nivel de eficiencia operacional |
-| $Resultados$ | Productos o resultados obtenidos |
-| $Recursos$ | Recursos utilizados |
+|:----------:|-------------|
+| $TAU$ | Tasa de adopción por unidad administrativa |
+| $UA_{activas}$ | Unidades administrativas con al menos una persona usuaria activa en el período |
+| $UA_{totales}$ | Total de unidades administrativas del Instituto |
 
-## Explicación de la fórmula
+### Explicación de la fórmula
 
-La fórmula calcula qué tan eficientemente se utilizan los recursos disponibles para generar resultados institucionales.
+Las unidades administrativas con actividad registrada en el lago se dividen entre el total de unidades del Instituto y se multiplica por 100. Una tasa alta indica penetración real de la plataforma en la operación institucional.
 
-Los resultados obtenidos se dividen entre los recursos utilizados.
+---
 
-Un valor mayor representa mejor aprovechamiento operativo.
+## 20. Índice de eficiencia de almacenamiento
 
-## Explicación de la métrica
+### Explicación de la métrica
 
-Esta métrica permite evaluar:
-- productividad institucional,
-- optimización tecnológica,
-- eficiencia de procesos,
-- y aprovechamiento de infraestructura.
+En un lago de datos que integra fuentes tan diversas como censos, cartografía vectorial, microdatos de encuestas y registros administrativos, es común que una proporción del almacenamiento se ocupe en archivos temporales, versiones obsoletas o duplicados no detectados. A diferencia de una métrica de consumo total, esta evalúa la calidad del uso del espacio, no solo su cantidad, lo que permite optimizar infraestructura y reducir costos operativos.
 
-También ayuda a identificar:
-- desperdicio de recursos,
-- procesos ineficientes,
-- y oportunidades de mejora organizacional.
+### Fórmula
 
+$$
+IEA = \frac{A_{util}}{A_{fisico}} \times 100
+$$
+
+### Componentes
+
+| Componente | Descripción |
+|:----------:|-------------|
+| $IEA$ | Índice de eficiencia de almacenamiento |
+| $A_{util}$ | Almacenamiento utilizado por datos únicos y válidos |
+| $A_{fisico}$ | Almacenamiento físico total consumido |
+
+### Explicación de la fórmula
+
+El almacenamiento ocupado por datos únicos y válidos se divide entre el almacenamiento físico total consumido y se multiplica por 100. Un valor alto indica que la mayoría del espacio se usa en información útil, con baja proporción de datos redundantes, temporales o corruptos.
 
 
 
