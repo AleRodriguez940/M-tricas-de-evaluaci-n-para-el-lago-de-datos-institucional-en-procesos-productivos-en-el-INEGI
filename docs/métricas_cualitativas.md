@@ -30,6 +30,10 @@ Escala Likert de 1 a 5 aplicada mediante encuesta periódica a personas usuarias
 
 El resultado se considera satisfactorio cuando la mayoría de las respuestas se concentra en los valores 4 y 5. Una concentración en valores 1, 2 o 3 indica necesidad de intervención inmediata.
 
+### Resultado esperado al aplicar la métrica
+
+Se espera identificar un alto nivel de aceptación y satisfacción respecto al uso del Lago de Datos Institucional. Los resultados permitirán detectar problemas relacionados con usabilidad, rendimiento o accesibilidad, además de orientar mejoras tecnológicas y estrategias de capacitación que favorezcan una mayor adopción y aprovechamiento institucional de la plataforma.
+
 ---
 
 ## 2. Facilidad de uso de la plataforma
@@ -50,6 +54,10 @@ Encuesta estructurada sobre los siguientes ejes:
 ### Criterio de interpretación
 
 La plataforma se considera usable cuando las personas usuarias la describen como intuitiva y sin necesidad de asistencia técnica constante. Menciones frecuentes de confusión, pasos innecesarios o dependencia de soporte son señales de alerta.
+
+### Resultado esperado al aplicar la métrica
+
+Se espera que las personas usuarias consideren la plataforma intuitiva, accesible y sencilla de utilizar en sus actividades diarias. Los resultados permitirán identificar dificultades de navegación, complejidad operativa o dependencia técnica excesiva, facilitando la implementación de mejoras que incrementen la eficiencia y reduzcan errores en el uso del sistema.
 
 ---
 
@@ -74,6 +82,10 @@ Evaluación cualitativa mediante encuesta y entrevistas con analistas y responsa
 
 La calidad percibida es adecuada cuando las áreas usuarias manifiestan que utilizan los datos del lago directamente en sus análisis sin validaciones adicionales externas. Quejas frecuentes sobre datos desactualizados o inconsistentes son indicadores de atención prioritaria.
 
+### Resultado esperado al aplicar la métrica
+
+Se espera que se perciba la información almacenada como confiable, actualizada y consistente para realizar análisis estadísticos y geoespaciales. Los resultados permitirán detectar problemas de calidad o desconfianza en los datos, fortaleciendo la gobernanza y confiabilidad institucional de la información utilizada para la toma de decisiones.
+
 ---
 
 ## 4. Utilidad percibida de la plataforma
@@ -93,6 +105,10 @@ Complementada con preguntas específicas sobre generación de información estad
 ### Criterio de interpretación
 
 La plataforma se considera útil cuando las áreas la integran de forma voluntaria y recurrente en sus procesos. El uso forzado por instrucción directiva sin apropiación espontánea es un indicador de baja utilidad percibida.
+
+### Resultado esperado al aplicar la métrica
+
+Se espera que las unidades administrativas perciban beneficios reales en sus procesos operativos mediante el uso del Lago de Datos. Los resultados ayudarán a identificar si la plataforma aporta valor institucional, mejora el análisis de información y favorece la integración tecnológica en las actividades diarias del Instituto.
 
 ---
 
@@ -115,9 +131,13 @@ Evaluación mediante encuesta y grupos focales sobre los siguientes aspectos:
 
 La confianza es adecuada cuando las personas usuarias manifiestan sentirse seguras al consultar, compartir y analizar información sin temor a accesos no autorizados o uso indebido. Percepciones de inseguridad deben tratarse como prioridad dado el carácter sensible del acervo del INEGI.
 
+### Resultado esperado al aplicar la métrica
+
+Se espera fortalecer la percepción de seguridad y confianza respecto al manejo de información sensible dentro del Lago de Datos Institucional. Los resultados permitirán identificar preocupaciones relacionadas con privacidad, accesos o gobernanza de datos, facilitando acciones que refuercen la protección y uso seguro de la información institucional.
+
 ---
 
-## 6. Nivel de colaboración interdepartamental
+## 6. Nivel de colaboración entre Unidades Administrativas
 
 ### Explicación de la métrica
 
@@ -134,6 +154,10 @@ Encuestas dirigidas a jefaturas y coordinaciones sobre los siguientes aspectos:
 ### Criterio de interpretación
 
 La colaboración mejora cuando las áreas reportan que el lago sustituye el intercambio informal de archivos por correo electrónico o unidades compartidas no controladas. La persistencia de silos de información es un indicador de que la métrica no está siendo atendida.
+
+### Resultado esperado al aplicar la métrica
+
+Se espera observar una mejora en el intercambio de información y colaboración entre las distintas unidades administrativas del Instituto. Los resultados permitirán identificar si la plataforma contribuye a reducir silos de información, fortalecer la comunicación institucional y facilitar el trabajo colaborativo mediante el acceso compartido a datos.
 
 ---
 
@@ -154,6 +178,10 @@ Evaluación mediante encuesta y entrevistas sobre los siguientes aspectos:
 ### Criterio de interpretación
 
 La plataforma se considera adaptable cuando las áreas reportan que pueden incorporar nuevos flujos de trabajo o fuentes de información sin requerir intervenciones técnicas mayores ni largos períodos de espera.
+
+### Resultado esperado al aplicar la métrica
+
+Se espera que las áreas perciban la plataforma como flexible y capaz de adaptarse a nuevos requerimientos operativos y tecnológicos. Los resultados permitirán identificar limitaciones funcionales o dificultades de integración, facilitando mejoras orientadas a la evolución continua y sostenibilidad tecnológica del Lago de Datos Institucional.
 
 ---
 
@@ -177,6 +205,10 @@ Evaluación mediante encuesta sobre tres dimensiones diferenciadas:
 
 La eficiencia operativa mejora cuando las personas usuarias identifican espontáneamente actividades concretas que ahora realizan más rápido o con menos esfuerzo. La ausencia de ejemplos concretos indica que la mejora aún no es perceptible en el trabajo diario.
 
+### Resultado esperado al aplicar la métrica
+
+Se espera identificar mejoras perceptibles en productividad, optimización de procesos y reducción de tiempos operativos dentro de las unidades administrativas. Los resultados permitirán validar si la plataforma realmente genera eficiencia institucional y contribuye a facilitar las actividades relacionadas con consulta y análisis de información.
+
 ---
 
 ## 9. Transparencia percibida en la gobernanza de datos
@@ -196,6 +228,10 @@ Entrevistas semiestructuradas con responsables de área sobre los siguientes asp
 ### Criterio de interpretación
 
 La gobernanza es percibida como transparente cuando las áreas conocen y comprenden las reglas de acceso sin necesidad de consultar al área técnica, y cuando no existen quejas recurrentes sobre privilegios desiguales o procesos de aprobación opacos.
+
+### Resultado esperado al aplicar la métrica
+
+Se espera que las unidades administrativas comprendan claramente las reglas de acceso, uso y distribución de información dentro del Lago de Datos. Los resultados permitirán identificar problemas de comunicación, percepción de inequidad o falta de claridad en la gobernanza institucional de los datos.
 
 ---
 
@@ -217,6 +253,10 @@ Encuesta y grupos focales sobre los siguientes aspectos:
 
 La capacitación es efectiva cuando las personas usuarias manifiestan sentirse competentes para realizar sus tareas habituales sin asistencia externa. Un volumen alto de tickets de soporte por preguntas básicas es una señal indirecta de capacitación insuficiente.
 
+### Resultado esperado al aplicar la métrica
+
+Se espera que las personas usuarias desarrollen las competencias necesarias para utilizar la plataforma de manera eficiente y autónoma. Los resultados permitirán detectar necesidades específicas de capacitación, fortalecer programas formativos y mejorar el aprovechamiento operativo y analítico del Lago de Datos Institucional.
+
 ---
 
 ## 11. Nivel de autonomía operativa de las personas usuarias
@@ -237,6 +277,10 @@ Encuestas dirigidas a personas usuarias y a personal de soporte técnico sobre l
 
 La autonomía es adecuada cuando las personas usuarias realizan sus tareas habituales sin escalar solicitudes al área técnica. Esta métrica se evalúa de forma cruzada con los registros de tickets de soporte para contrastar la percepción con el comportamiento real.
 
+### Resultado esperado al aplicar la métrica
+
+Se espera que las personas usuarias puedan realizar sus actividades habituales sin requerir asistencia técnica constante. Los resultados permitirán identificar niveles de dependencia operativa, dificultades recurrentes y áreas donde sea necesario mejorar la capacitación o simplificar funcionalidades de la plataforma.
+
 ---
 
 ## 12. Percepción de escalabilidad institucional
@@ -249,13 +293,17 @@ El INEGI trabaja con volúmenes de información que crecen continuamente con cad
 
 Evaluación mediante encuesta a mandos medios y personal técnico sobre los siguientes aspectos:
 
-- Capacidad percibida de la plataforma para soportar más usuarios simultáneos
+- Capacidad percibida de la plataforma para soportar más usuarios simultáneos a nivel nacional
 - Percepción de que el lago puede incorporar nuevas fuentes de datos sin degradación del rendimiento
 - Confianza en que la infraestructura responderá al crecimiento institucional futuro
 
 ### Criterio de interpretación
 
 La escalabilidad se percibe como adecuada cuando las áreas manifiestan que la plataforma puede crecer junto con las necesidades del Instituto sin requerir reemplazos tecnológicos de gran envergadura en el corto plazo.
+
+### Resultado esperado al aplicar la métrica
+
+Se espera que las áreas usuarias perciban que la plataforma puede soportar el crecimiento futuro de información, usuarios y procesos institucionales. Los resultados permitirán identificar preocupaciones relacionadas con capacidad tecnológica, rendimiento y sostenibilidad operativa de la infraestructura del Lago de Datos Institucional.
 
 ---
 
@@ -277,9 +325,13 @@ Encuestas sobre los siguientes aspectos:
 
 El aprovechamiento analítico es alto cuando las áreas reportan que el lago les permite realizar análisis que antes no podían hacer, o realizarlos con menor esfuerzo y mayor profundidad. Un uso limitado a consultas simples indica subutilización del potencial de la plataforma.
 
+### Resultado esperado al aplicar la métrica
+
+Se espera identificar un uso analítico activo de la información almacenada dentro del Lago de Datos. Los resultados permitirán evaluar si las áreas aprovechan la plataforma para generar análisis estadísticos y geoespaciales más complejos, fortaleciendo la toma de decisiones basada en información institucional integrada.
+
 ---
 
-## 14. Alineación percibida con los objetivos institucionales del INEGI
+## 14. Alineación percibida con los objetivos institucionales
 
 ### Explicación de la métrica
 
@@ -290,12 +342,16 @@ Una plataforma tecnológicamente robusta que no se percibe alineada con los obje
 Entrevistas con mandos medios y superiores sobre los siguientes aspectos:
 
 - Correspondencia entre las capacidades del lago y las prioridades estratégicas del Instituto
-- Contribución percibida al cumplimiento del mandato estadístico y geográfico del INEGI
+- Contribución percibida al cumplimiento de la norma estadístico y geográfico del INEGI
 - Alineación con la normativa del Sistema Nacional de Información Estadística y Geográfica (SNIEG)
 
 ### Criterio de interpretación
 
 La alineación estratégica es adecuada cuando los mandos directivos describen el Lago de Datos como una herramienta que contribuye directamente al cumplimiento de los objetivos institucionales y no solo como una solución tecnológica aislada.
+
+### Resultado esperado al aplicar la métrica
+
+Se espera que las áreas directivas perciban el Lago de Datos como una herramienta alineada con los objetivos estratégicos y operativos. Los resultados permitirán validar la pertinencia institucional del proyecto y fortalecer el respaldo organizacional para futuras inversiones tecnológicas y expansión de capacidades analíticas.
 
 ---
 
@@ -317,7 +373,10 @@ Entrevistas con responsables de área y personal técnico sobre los siguientes a
 
 La sostenibilidad se percibe como sólida cuando las áreas invierten tiempo y recursos propios en apropiarse de la plataforma sin temor a que el proyecto sea discontinuado. La resistencia a adoptar por incertidumbre sobre la permanencia del proyecto es un indicador crítico de atención.
 
+### Resultado esperado al aplicar la métrica
+
+Se espera fortalecer la confianza institucional respecto a la permanencia y evolución futura del Lago de Datos. Los resultados permitirán identificar riesgos relacionados con continuidad operativa, respaldo institucional o sostenibilidad presupuestal, favoreciendo estrategias que garanticen la estabilidad y crecimiento del proyecto a largo plazo.
+
 ---
 
 
-| 15 | Sostenibilidad del proyecto | Entrevistas | Confianza en continuidad institucional |
