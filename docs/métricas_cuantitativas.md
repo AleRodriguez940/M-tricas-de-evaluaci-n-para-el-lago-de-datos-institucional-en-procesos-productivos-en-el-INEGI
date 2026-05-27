@@ -344,6 +344,64 @@ Los recursos utilizados se dividen entre los recursos totales disponibles y se m
 
 ---
 
+## 13A. Índice de uso de CPU
+
+### Explicación de la métrica
+
+El CPU es uno de los componentes más importantes dentro de la infraestructura del Lago de Datos Institucional, ya que participa directamente en el procesamiento ETL, consultas masivas, análisis estadístico, procesamiento geoespacial y ejecución de modelos analíticos.
+
+Esta métrica permite monitorear específicamente el nivel de utilización del procesador central de la infraestructura tecnológica, ayudando a identificar:
+
+- saturación de procesamiento,
+- cuellos de botella,
+- sobrecarga operativa,
+- problemas de rendimiento,
+- y necesidad de escalabilidad computacional.
+
+Un uso excesivo del CPU puede provocar:
+- lentitud en consultas,
+- retrasos en procesamiento,
+- interrupciones operativas,
+- y degradación del rendimiento institucional.
+
+Por otro lado, un uso demasiado bajo puede indicar subutilización de infraestructura tecnológica.
+
+Esta métrica ayuda a optimizar recursos computacionales y mantener estabilidad operativa dentro del Lago de Datos Institucional.
+
+### Fórmula
+
+$$
+U_{CPU} = \frac{CPU_{utilizado}}{CPU_{disponible}} \times 100
+$$
+
+### Componentes
+
+| Componente | Descripción |
+|:----------:|-------------|
+| $U_{CPU}$ | Porcentaje de uso del CPU |
+| $CPU_{utilizado}$ | Capacidad de procesamiento utilizada |
+| $CPU_{disponible}$ | Capacidad total de procesamiento disponible |
+
+### Explicación de la fórmula
+
+La capacidad de procesamiento utilizada se divide entre la capacidad total disponible del CPU y posteriormente se multiplica por 100.
+
+El resultado representa el porcentaje de utilización del procesador dentro de la infraestructura tecnológica.
+
+Un valor muy alto puede indicar:
+- saturación computacional,
+- sobrecarga de procesos,
+- y riesgo de degradación del rendimiento.
+
+Un valor muy bajo puede indicar:
+- subutilización de recursos,
+- infraestructura sobredimensionada,
+- o baja demanda operativa.
+
+Se recomienda mantener el uso promedio del CPU entre 60% y 85% para garantizar estabilidad y rendimiento óptimo.
+
+---
+
 ## 14. Tasa de consultas exitosas
 
 ### Explicación de la métrica
